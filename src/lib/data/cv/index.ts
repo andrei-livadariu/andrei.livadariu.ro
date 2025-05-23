@@ -7,27 +7,27 @@ export interface CVText {
     statement: string,
     experience: {
         title: string,
-        entries: JobEntryText[],
+        entries: readonly Readonly<JobEntryText>[],
     },
     projects: {
         title: string,
-        entries: JobEntryText[],
+        entries: readonly Readonly<JobEntryText>[],
     },
     education: {
         title: string,
-        entries: JobEntryText[],
+        entries: readonly Readonly<JobEntryText>[],
     },
     skills: {
         title: string,
-        entries: SkillEntryText[],
+        entries: readonly Readonly<SkillEntryText>[],
     },
     languages: {
         title: string,
-        entries: LanguageEntryText[],
+        entries: readonly Readonly<LanguageEntryText>[],
     },
     interests: {
         title: string,
-        items: string[],
+        items: readonly string[],
     },
 }
 
@@ -47,5 +47,5 @@ export interface LanguageEntryText {
 
 export interface SkillEntryText {
     title: string,
-    items: string[],
+    items: readonly string[],
 }

@@ -1,5 +1,5 @@
 <script lang="ts">
-    const {items}: {items: string[]} = $props();
+    const {items}: {items: readonly string[]} = $props();
 </script>
 
 <ul class="interests text-center flex flex-wrap gap-x-4 justify-center">
