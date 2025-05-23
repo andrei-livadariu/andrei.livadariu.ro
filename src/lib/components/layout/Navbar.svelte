@@ -8,7 +8,7 @@
 
 <svelte:window bind:scrollY={scrollY} />
 
-<nav class="navbar font-mono py-2 md:py-4 {isScrolled ? 'bg-background shadow-xl/20' : ''}">
+<nav class="navbar font-mono py-2 md:py-4 {isScrolled ? 'bg-background shadow-xl/20' : ''} print:hidden">
     <div class="container">
         <div class="flex gap:4 lg:gap-12 items-center">
             <div class="flex-1">

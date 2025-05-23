@@ -17,11 +17,11 @@
     <meta name="description" content={m['site.tagline']()} />
 </svelte:head>
 
-<section class="container">
+<section class="container print:hidden">
     <Intro />
 </section>
 
-<hr class="my-12 border-gray-300" />
+<hr class="my-12 border-gray-300 print:hidden" />
 
 <section class="container pb-12">
     <Cv cv={cv} />

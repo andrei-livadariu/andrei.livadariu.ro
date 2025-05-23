@@ -22,6 +22,10 @@
       "label": "Location",
       "value": "Bucharest, Romania"
     },
+    "website": {
+      "label": "Website",
+      "value": "https://andrei.livadariu.ro"
+    },
     "linkedin": {
       "label": "LinkedIn",
       "value": "Andrei Livadariu",

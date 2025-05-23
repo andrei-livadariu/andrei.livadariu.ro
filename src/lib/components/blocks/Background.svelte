@@ -15,5 +15,10 @@
         background-repeat: repeat;
         background-attachment: scroll, fixed;
         color: #fff;
+
+        @media print {
+            background: none !important;
+            color: var(--foreground);
+        }
     }
 </style>

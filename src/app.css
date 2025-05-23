@@ -96,3 +96,18 @@
 p + p {
     margin-top: 1rem;
 }
+
+@media print {
+    html {
+        font-size: 11px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        max-width: none;
+        padding-inline: 0;
+    }
+}

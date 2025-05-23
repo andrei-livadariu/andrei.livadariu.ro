@@ -22,6 +22,10 @@
       "label": "Localitate",
       "value": "București"
     },
+    "website": {
+      "label": "Site",
+      "value": "https://andrei.livadariu.ro"
+    },
     "linkedin": {
       "label": "LinkedIn",
       "value": "Andrei Livadariu",

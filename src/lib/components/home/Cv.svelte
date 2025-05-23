@@ -14,15 +14,21 @@
     const {cv}: {cv: CVText} = $props();
 </script>
 
-<h2 class="mb-2">{m['home.cv.title']()}_</h2>
+<h2 class="mb-2 print:hidden">
+    {m['home.cv.title']()}_
+</h2>
 
-<ParagraphText text={cv.statement} />
+<div class="print:mb-12">
+    <ParagraphText text={cv.statement} />
+</div>
 
-<CvSection title={cv.experience.title}>
-    {#each cv.experience.entries as entry (entry.title)}
-        <JobEntry {...entry} />
-    {/each}
-</CvSection>
+<div style="break-after: page">
+    <CvSection title={cv.experience.title}>
+        {#each cv.experience.entries as entry (entry.title)}
+            <JobEntry {...entry} />
+        {/each}
+    </CvSection>
+</div>
 
 <CvSection title={cv.skills.title}>
     {#each cv.skills.entries as entry (entry.title)}

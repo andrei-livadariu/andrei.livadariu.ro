@@ -15,13 +15,15 @@
 <Navbar title="Andrei Livadariu" />
 
 <Background>
-    <div class="pt-20 -mt-20 md:pt-0 md:mt-0">
+    <div class="pt-20 -mt-20 md:pt-0 md:mt-0 print:pt-0 print:mt-0">
         <Header />
     </div>
 </Background>
 
 {@render children()}
 
-<Background>
-    <Footer />
-</Background>
+<div class="print:hidden">
+    <Background>
+        <Footer />
+    </Background>
+</div>

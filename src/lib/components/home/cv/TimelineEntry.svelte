@@ -5,21 +5,21 @@
 </script>
 
 <div class="entry flex gap-6">
-    <div class="md:hidden">
+    <div class="md:hidden print:hidden">
         <div class="point"></div>
     </div>
 
     <div class="flex-1">
-        <div class="md:flex gap-6">
-            <div class="md:basis-1/4 md:text-end md:pb-12">
+        <div class="md:flex print:flex gap-6">
+            <div class="md:basis-1/4 print:basis-1/4 md:text-end print:text-end md:pb-12 print:pb-2">
                 {@render left()}
             </div>
 
-            <div class="hidden md:block">
+            <div class="hidden md:block print:block">
                 <div class="point"></div>
             </div>
 
-            <div class="flex-1 pb-12">
+            <div class="flex-1 pb-12 print:pb-2">
                 {@render right()}
             </div>
         </div>
