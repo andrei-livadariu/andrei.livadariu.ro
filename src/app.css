@@ -13,7 +13,7 @@
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --font-sans: "Roboto Variable";
-    --font-mono: "Roboto Mono Variable";
+    --font-mono: "Roboto Mono Variable", "Courier New", "Courier", monospace;
 }
 
 
