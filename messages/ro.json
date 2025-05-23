@@ -52,5 +52,11 @@
       "title": "CV",
       "download": "Descarcă"
     }
+  },
+  "error": {
+    "404": {
+      "title": "Pagina pe care o cauți nu a putut fi găsită",
+      "return": "Înapoi la pagina principală"
+    }
   }
 }

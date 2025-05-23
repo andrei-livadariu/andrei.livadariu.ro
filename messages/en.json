@@ -52,5 +52,11 @@
       "title": "CV",
       "download": "Download"
     }
+  },
+  "error": {
+    "404": {
+      "title": "The page you are looking for could not be found",
+      "return": "Return to home page"
+    }
   }
 }
