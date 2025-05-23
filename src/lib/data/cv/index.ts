@@ -29,6 +29,7 @@ export interface CVText {
         title: string,
         items: readonly string[],
     },
+    pdfPath: string,
 }
 
 export interface JobEntryText {

@@ -226,4 +226,6 @@ Asta este ținta mea ca specialist în IT.`,
             "Design de jocuri",
         ],
     },
+
+    pdfPath: '/cv/CV-Andrei-Livadariu-Romana.pdf',
 } as const;

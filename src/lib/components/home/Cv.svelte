@@ -14,9 +14,16 @@
     const {cv}: {cv: CVText} = $props();
 </script>
 
-<h2 class="mb-2 print:hidden">
-    {m['home.cv.title']()}_
-</h2>
+<div class="flex items-center mb-2">
+    <h2 class="flex-1 print:hidden">
+        {m['home.cv.title']()}_
+    </h2>
+    <div>
+        <a href={cv.pdfPath} download class="bg-[var(--primary)] text-white no-underline uppercase font-mono py-1 px-3 md:py-2 md:px-6 rounded-full print:hidden">
+            {m['home.cv.download']()}
+        </a>
+    </div>
+</div>
 
 <div class="print:mb-12">
     <ParagraphText text={cv.statement} />

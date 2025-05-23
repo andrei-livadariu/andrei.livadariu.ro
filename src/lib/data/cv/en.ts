@@ -231,4 +231,6 @@ This is what I strive to achieve as an IT specialist.`,
             "Game design",
         ],
     },
+
+    pdfPath: '/cv/CV-Andrei-Livadariu-English.pdf',
 } as const;
