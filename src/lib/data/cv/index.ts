@@ -9,13 +9,13 @@ export interface CVText {
         title: string,
         entries: readonly Readonly<JobEntryText>[],
     },
-    projects: {
+    volunteering: {
         title: string,
         entries: readonly Readonly<JobEntryText>[],
     },
     education: {
         title: string,
-        entries: readonly Readonly<JobEntryText>[],
+        entries: readonly Readonly<EducationEntryText>[],
     },
     skills: {
         title: string,
@@ -33,8 +33,15 @@ export interface CVText {
 
 export interface JobEntryText {
     title: string,
-    company?: string,
-    duration?: string,
+    company: string,
+    duration: string,
+    description: string,
+}
+
+export interface EducationEntryText {
+    title: string,
+    institution: string,
+    duration: string,
     description?: string,
 }
 

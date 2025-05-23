@@ -1,7 +1,5 @@
 export default {
-    statement: `Through 15 years of working in IT, I have gained experience with a wide array of technologies - full-stack web development, cross-platform app development, game programming, and cyber security.
-
-Besides delivering numerous projects, I have also run my own company, which allowed me to delve into the business, management and leadership side of tech. 
+    statement: `With over 15 years IT experience as a full-stack developer, I've delivered numerous sites, online shops, cross-platform apps, and custom solutions. I have also run my own company, which allowed me to delve into the business, management and leadership side of tech. 
 
 What I enjoy the most about this work is to study each business and to proactively identify the areas where I can make the biggest impact. This could mean delivering profitable solutions, reducing costs or helping my co-workers work more efficiently.
 
@@ -14,55 +12,57 @@ This is what I strive to achieve as an IT specialist.`,
                 title: "Senior web developer",
                 company: "Web Lab Space SRL, Romania",
                 duration: "2019 - 2025",
-                description: "The projects I developed as part of this position are high-traffic websites built on top of a microservices architecture. Besides the web sites themselves, the work also involves cloud storage, a video encoding pipeline and DevOps. The main technologies used are Laravel, Yii, NodeJS, VueJS, alongside their rich ecosystems."
+                description: `The projects were high-traffic websites built on top of a microservices architecture.
+                My chief contribution was in cutting costs by using our resources more efficiently.
+                The work also involved cloud storage, video encoding, server management and DevOps.
+                Technologies: Laravel, Yii, NodeJS, VueJS, Redis, Backpack`
             },
             {
                 title: "CEO / Tech Lead",
                 company: "Modern Web SRL, Romania",
                 duration: "2014 - 2019",
-                description: "Running a small company means you have to do some of everything: team management, client relations, programming, research, sales, etc. My time at Modern Web has allowed me to develop all these skills, and also to work with new technologies and to meet and learn from various people. I delivered many projects in the e-commerce field of work (using Magento), and also various cross-platform apps (using React Native and Unity3D)."
+                description: `We made online shops, presentation websites and cross-platform apps.
+                I handled some of everything: team management, client relations, programming, sales.
+                Technologies: Magento, Joomla, Yii, Bootstrap, React Native, Unity`
             },
             {
                 title: "Web developer",
                 company: "e-reactor ApS, Denmark",
                 duration: "2012 - 2014",
-                description: "As part of this position I produced a number of web projects, such as online shops, presentation websites and web apps. Additionally, I provided maintenance for existing projects and I implemented extensions for platforms such as Joomla and Magento. I also participated in handling client relations, delivering technical expertise during sales calls, and providing support to our users.",
+                description: `I worked on a vast portfolio of presentation websites and online shops.
+                I took part in many sales calls and handled clients directly as a technical advisor.
+                Technologies: Magento, Joomla, Bootstrap`,
             },
             {
                 title: "Teaching assistant",
                 company: "IT University of Copenhagen, Denmark",
                 duration: "Feb. 2013 - May 2013",
-                description: "The courses that I taught in were \"Intelligent Systems Programming\" and \"Game Development\", two of my favorite courses from my master program. The main part of the job was to work with the students, answering their questions and providing guidance, under the directions of the course manager. I also took part in grading various assignments and projects delivered by students.",
+                description: `The courses that I taught in were "Intelligent Systems Programming" and "Game Development".
+                The day-to-day work was about helping students with their course material.
+                I also took part in grading assignments and projects.`,
             },
             {
                 title: "Virus analyst",
                 company: "BitDefender SRL, Romania",
                 duration: "2009 - 2011",
-                description: "During my bachelor degree years I also had a full time position as a virus analyst. The day-to-day work involved analyzing malware samples through reverse engineering, delivering detection and removal solutions, and performing research to develop more advanced algorithms for malware detection.",
+                description: `The bulk of the work was analyzing malware samples through reverse engineering to deliver detection and removal solutions.
+                I also researched and implemented machine-learning approaches for malware detection.
+                This was a full-time position during my bachelor degree years.`,
             },
         ],
     },
 
-    projects: {
-        title: "Personal projects",
+    volunteering: {
+        title: "Volunteering",
         entries: [
             {
-                title: "Volunteer Teacher",
+                title: "Computer Science Teacher",
                 company: "Coder Dojo Bucharest",
                 duration: "2019 - ongoing",
-                description: "For the past few years I've also been doing volunteer work, teaching computer science to children. Our organization provides classes on a wide variety of learning-friendly technologies, and the ones I focus on are hardware-related, on the Microbit and Arduino platforms.",
-            },
-            {
-                title: "Telegram Bot",
-                company: "T5 Social",
-                duration: "2023 - ongoing",
-                description: "The plan was to add some gamification features to support a community centered around fun events. This was achieved through a Telegram bot (written in Python) that talks to members and facilitates these interactions.",
-            },
-            {
-                title: "TrainCoach",
-                duration: "2018 - ongoing",
-                description: "One of my hobbies is Lego building, so I thought it would be interesting to add some automation to Lego trains and tracks. The result is a solution comprising both hardware and software, using Arduino to control the trains."
-            },
+                description: `As part of this volunteer organization, I teach computer science to children.
+                We provide classes on a wide variety of learning-friendly technologies such as Scratch.
+                My focus is on hardware-related classes, on the Microbit and Arduino platforms.`,
+            }
         ],
     },
 
@@ -71,19 +71,19 @@ This is what I strive to achieve as an IT specialist.`,
         entries: [
             {
                 title: "Master of Science in Games, Technology track",
-                company: "IT University of Copenhagen, Denmark",
+                institution: "IT University of Copenhagen, Denmark",
                 duration: "2011 - 2013",
                 description: "Master thesis: \"Methods for collecting and analyzing gameplay data to create replay footage\"",
             },
             {
                 title: "Bachelor in Computer Science",
-                company: "\"Alexandru Ioan Cuza\" University, Iași, Romania",
+                institution: "\"Alexandru Ioan Cuza\" University, Iași, Romania",
                 duration: "2008 - 2011",
                 description: "Bachelor thesis: \"Emulation and virtualization system for Intel x86\"",
             },
             {
-                title: "Mathematics - Computer Science Track",
-                company: "\"Sf. Sava\" high school, Bucharest, Romania",
+                title: "Mathematics - IT Track",
+                institution: "\"Sf. Sava\" high school, Bucharest, Romania",
                 duration: "2004 - 2008",
             },
         ],

@@ -7,6 +7,7 @@
     import CvSection from "$lib/components/home/cv/CvSection.svelte";
     import JobEntry from "$lib/components/home/cv/JobEntry.svelte";
     import SkillEntry from "$lib/components/home/cv/SkillEntry.svelte";
+    import EducationEntry from "$lib/components/home/cv/EducationEntry.svelte";
     import LanguageEntry from "$lib/components/home/cv/LanguageEntry.svelte";
     import Interests from "$lib/components/home/cv/Interests.svelte";
 
@@ -23,27 +24,27 @@
     {/each}
 </CvSection>
 
-<CvSection title={cv.projects.title}>
-    {#each cv.projects.entries as entry (entry.title)}
-        <JobEntry {...entry} />
-    {/each}
-</CvSection>
-
-<CvSection title={cv.education.title}>
-    {#each cv.education.entries as entry (entry.title)}
-        <JobEntry {...entry} />
-    {/each}
-</CvSection>
-
 <CvSection title={cv.skills.title}>
     {#each cv.skills.entries as entry (entry.title)}
         <SkillEntry {...entry} />
     {/each}
 </CvSection>
 
+<CvSection title={cv.education.title}>
+    {#each cv.education.entries as entry (entry.title)}
+        <EducationEntry {...entry} />
+    {/each}
+</CvSection>
+
 <CvSection title={cv.languages.title}>
     {#each cv.languages.entries as entry (entry.language)}
         <LanguageEntry {...entry} />
+    {/each}
+</CvSection>
+
+<CvSection title={cv.volunteering.title}>
+    {#each cv.volunteering.entries as entry (entry.title)}
+        <JobEntry {...entry} />
     {/each}
 </CvSection>
 

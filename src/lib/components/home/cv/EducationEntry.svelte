@@ -1,10 +1,9 @@
 <script lang="ts">
-    import type {JobEntryText} from "$lib/data/cv";
+    import type {EducationEntryText} from "$lib/data/cv";
 
     import TimelineEntry from "$lib/components/home/cv/TimelineEntry.svelte";
-    import ListText from "$lib/components/blocks/ListText.svelte";
 
-    const {title, duration, company, description}: JobEntryText = $props();
+    const {title, duration, institution, description}: EducationEntryText = $props();
 </script>
 
 <TimelineEntry>
@@ -20,9 +19,11 @@
 
     {#snippet right()}
         <div class="h6 mb-2 text-primary">
-            @ {company}
+            @ {institution}
         </div>
 
-        <ListText text={description} class="pl-4" style="list-style-type: '-  ';" />
+        {#if description}
+            <p>{description}</p>
+        {/if}
     {/snippet}
 </TimelineEntry>
