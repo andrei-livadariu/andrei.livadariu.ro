@@ -35,7 +35,9 @@
   },
   "footer": {
     "heading": "Contactează-mă",
-    "built": "Acest site este programat în SvelteKit și Tailwind."
+    "built": "Acest site este programat în SvelteKit și Tailwind.",
+    "github_link": "https://github.com/andrei-livadariu/andrei.livadariu.ro",
+    "code": "Poți vedea codul aici!"
   },
   "home": {
     "intro": {

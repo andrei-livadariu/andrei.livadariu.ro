@@ -119,6 +119,7 @@ Asta este ținta mea ca specialist în IT.`,
                 items: [
                     "React",
                     "NodeJS",
+                    "Svelte",
                     "Vue",
                     "Next.js",
                     "Firebase",

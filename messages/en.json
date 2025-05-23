@@ -35,7 +35,9 @@
   },
   "footer": {
     "heading": "Get in touch",
-    "built": "This site is built using SvelteKit and Tailwind."
+    "built": "This site is built using SvelteKit and Tailwind.",
+    "github_link": "https://github.com/andrei-livadariu/andrei.livadariu.ro",
+    "code": "Click here to see the code!"
   },
   "home": {
     "intro": {

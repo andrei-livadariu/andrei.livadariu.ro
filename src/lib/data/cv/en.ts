@@ -118,6 +118,7 @@ This is what I strive to achieve as an IT specialist.`,
                 items: [
                     "React",
                     "NodeJS",
+                    "Svelte",
                     "Vue",
                     "Next.js",
                     "Firebase",

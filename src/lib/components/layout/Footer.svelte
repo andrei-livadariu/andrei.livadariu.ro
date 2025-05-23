@@ -36,6 +36,10 @@
     <p class="text-center font-mono opacity-50">
         {m['footer.built']()}
         <br />
+        <a href="{m['footer.github_link']()}" target="_blank" rel="external nofollow noopener">
+            {m['footer.code']()}
+        </a>
+        <br />
         © {new Date().getFullYear()} {m['site.name']()}
     </p>
 </footer>
