@@ -1,0 +1,46 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "language_name": "Română",
+  "site": {
+    "name": "Andrei Livadariu",
+    "tagline": "Creez site-uri, aplicații, jocuri și alte chestii interesante"
+  },
+  "contact": {
+    "age": {
+      "label": "Vârsta",
+      "value": "1990-02-12T00:00:00.000Z"
+    },
+    "phone": {
+      "label": "Telefon",
+      "value": "0724 390 309"
+    },
+    "email": {
+      "label": "E-mail",
+      "value": "andrei@livadariu.ro"
+    },
+    "location": {
+      "label": "Localitate",
+      "value": "București"
+    },
+    "linkedin": {
+      "label": "LinkedIn",
+      "value": "Andrei Livadariu",
+      "link": "https://www.linkedin.com/in/andrei-livadariu-92857057/"
+    },
+    "github": {
+      "label": "GitHub",
+      "value": "andrei-livadariu",
+      "link": "https://github.com/andrei-livadariu"
+    }
+  },
+  "footer": {
+    "heading": "Contactează-mă",
+    "built": "Acest site este programat în SvelteKit și Tailwind."
+  },
+  "home": {
+    "intro": {
+      "title": "Salut",
+      "text": "Sunt un tip pasionat de IT. Dezvolt proiecte, predau, învăț, rezolv probleme. Pe această pagină mă poți cunoaște mai bine, poți vedea ce știu să fac și poți să vezi la ce proiecte lucrez."
+    }
+  }
+}

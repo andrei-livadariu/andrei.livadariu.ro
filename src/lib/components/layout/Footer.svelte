@@ -1,39 +1,41 @@
 <script lang="ts">
+    import {m} from '$lib/paraglide/messages.js';
+
     import ContactList from "$lib/components/blocks/ContactList.svelte";
     import ContactEntry from "$lib/components/blocks/ContactEntry.svelte";
 </script>
 
 <footer class="container py-6 center-block">
-    <h2 class="mb-6 text-center">Get in touch_</h2>
+    <h2 class="mb-6 text-center">{m['footer.heading']()}_</h2>
 
     <div class="center-block mb-6">
         <ContactList>
-            <ContactEntry label="Phone">
-                <a href="tel:+40724390309">
-                    (+40) 724 390 309
+            <ContactEntry label={m['contact.phone.label']()}>
+                <a href="tel:{m['contact.phone.value']().replace(/[^0-9+]/g, '')}">
+                    {m['contact.phone.value']()}
                 </a>
             </ContactEntry>
-            <ContactEntry label="Email">
-                <a href="mailto:andrei@livadariu.ro">
-                    andrei@livadariu.ro
+            <ContactEntry label={m['contact.email.label']()}>
+                <a href="mailto:{m['contact.email.value']()}">
+                    {m['contact.email.value']()}
                 </a>
             </ContactEntry>
-            <ContactEntry label="LinkedIn">
-                <a href="https://www.linkedin.com/in/mihai-andrei-livadariu-92857057/" target="_blank" rel="nofollow noopener">
-                    Andrei Livadariu
+            <ContactEntry label={m['contact.linkedin.label']()}>
+                <a href={m['contact.linkedin.link']()} target="_blank" rel="nofollow noopener">
+                    {m['contact.linkedin.value']()}
                 </a>
             </ContactEntry>
-            <ContactEntry label="GitHub">
-                <a href="https://github.com/andrei-livadariu" target="_blank" rel="nofollow noopener">
-                    andrei-livadariu
+            <ContactEntry label={m['contact.github.label']()}>
+                <a href={m['contact.github.link']()} target="_blank" rel="nofollow noopener">
+                    {m['contact.github.value']()}
                 </a>
             </ContactEntry>
         </ContactList>
     </div>
 
     <p class="text-center font-mono opacity-50">
-        This site is built using SvelteKit and Tailwind.
+        {m['footer.built']()}
         <br />
-        © {new Date().getFullYear()} Andrei Livadariu
+        © {new Date().getFullYear()} {m['site.name']()}
     </p>
 </footer>

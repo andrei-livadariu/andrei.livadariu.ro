@@ -28,7 +28,8 @@
 		"tailwindcss": "^4.1.7",
 		"typescript": "^5.8.3",
 		"typescript-eslint": "^8.32.1",
-		"vite": "^6.3.5"
+		"vite": "^6.3.5",
+		"@inlang/paraglide-js": "2.0.13"
 	},
 	"dependencies": {
 		"@fontsource-variable/roboto": "^5.2.5",

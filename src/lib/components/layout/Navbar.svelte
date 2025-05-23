@@ -1,4 +1,6 @@
 <script lang="ts">
+    import LanguageSwitcher from "$lib/components/layout/LanguageSwitcher.svelte";
+
     const { title }: {title:string} = $props();
     let scrollY: number = $state(0);
     let isScrolled = $derived(scrollY > 0);
@@ -8,8 +10,15 @@
 
 <nav class="navbar font-mono py-2 md:py-4 {isScrolled ? 'bg-background shadow-xl/20' : ''}">
     <div class="container">
-        <div class="text-primary text-xl md:text-2xl {isScrolled ? '' : 'hidden'}">
-            {title}
+        <div class="flex gap:4 lg:gap-12 items-center">
+            <div class="flex-1">
+                <div class="text-primary text-xl md:text-2xl {isScrolled ? '' : 'hidden'}">
+                    {title}
+                </div>
+            </div>
+            <div class={isScrolled ? '' : 'text-white'}>
+                <LanguageSwitcher />
+            </div>
         </div>
     </div>
 </nav>

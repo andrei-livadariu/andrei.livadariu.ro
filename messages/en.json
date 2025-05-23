@@ -1,0 +1,46 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "language_name": "English",
+  "site": {
+    "name": "Andrei Livadariu",
+    "tagline": "I make websites, apps, games, and other cool stuff"
+  },
+  "contact": {
+    "age": {
+      "label": "Age",
+      "value": "1990-02-12T00:00:00.000Z"
+    },
+    "phone": {
+      "label": "Phone",
+      "value": "(+40) 724 390 309"
+    },
+    "email": {
+      "label": "Email",
+      "value": "andrei@livadariu.ro"
+    },
+    "location": {
+      "label": "Location",
+      "value": "Bucharest, Romania"
+    },
+    "linkedin": {
+      "label": "LinkedIn",
+      "value": "Andrei Livadariu",
+      "link": "https://www.linkedin.com/in/andrei-livadariu-92857057/"
+    },
+    "github": {
+      "label": "GitHub",
+      "value": "andrei-livadariu",
+      "link": "https://github.com/andrei-livadariu"
+    }
+  },
+  "footer": {
+    "heading": "Get in touch",
+    "built": "This site is built using SvelteKit and Tailwind."
+  },
+  "home": {
+    "intro": {
+      "title": "Hi",
+      "text": "I'm a guy who's passionate about IT. I build stuff, I teach, I learn, I solve problems. Get to know me better, have a look at what I can do and check out some of the projects I've been working on."
+    }
+  }
+}
