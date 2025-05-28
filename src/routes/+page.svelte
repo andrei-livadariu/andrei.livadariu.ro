@@ -1,4 +1,7 @@
 <script lang="ts">
+    import { page } from '$app/state';
+
+    import {MetaTags} from 'svelte-meta-tags';
     import {m} from '$lib/paraglide/messages.js';
 
     import {getLocale, baseLocale} from "$lib/paraglide/runtime";
@@ -10,12 +13,28 @@
 
     const locale = getLocale();
     const cv = (cvsByLanguage[locale] ?? cvsByLanguage[baseLocale]) as CVText;
+
+    const baseUrl = m['contact.website.value']();
 </script>
 
-<svelte:head>
-    <title>{m['site.name']()}</title>
-    <meta name="description" content={m['site.tagline']()} />
-</svelte:head>
+<MetaTags
+    title={m['site.name']()}
+    description={m['site.tagline']()}
+    openGraph={{
+        type: 'website',
+        url: baseUrl + page.url.pathname.replace(/\/$/, ''),
+        title: m['site.name'](),
+        description: m['site.tagline'](),
+        images: [
+            {
+                url: `${baseUrl}/andrei-livadariu-meta.jpg`,
+                width: 630,
+                height: 630,
+                alt: m['site.name'](),
+            },
+        ],
+    }}
+/>
 
 <section class="container print:hidden">
     <Intro />
