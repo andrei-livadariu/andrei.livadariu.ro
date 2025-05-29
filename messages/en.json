@@ -6,36 +6,23 @@
     "tagline": "I make websites, apps, games, and other cool stuff"
   },
   "contact": {
-    "age": {
-      "label": "Age",
-      "value": "1990-02-12T00:00:00.000Z"
-    },
-    "phone": {
-      "label": "Phone",
-      "value": "(+40) 724 390 309"
-    },
-    "email": {
-      "label": "Email",
-      "value": "andrei@livadariu.ro"
-    },
-    "location": {
-      "label": "Location",
-      "value": "Bucharest, Romania"
-    },
-    "website": {
-      "label": "Website",
-      "value": "https://andrei.livadariu.ro"
-    },
+    "age": "1990-02-12T00:00:00.000Z",
+    "phone": "(+40) 724 390 309",
+    "email": "andrei@livadariu.ro",
+    "location": "Bucharest, Romania",
+    "website": "https://andrei.livadariu.ro",
     "linkedin": {
-      "label": "LinkedIn",
-      "value": "Andrei Livadariu",
-      "link": "https://www.linkedin.com/in/andrei-livadariu-92857057/"
+      "link": "https://www.linkedin.com/in/andrei-livadariu-92857057/",
+      "text": "LinkedIn"
     },
     "github": {
-      "label": "GitHub",
-      "value": "andrei-livadariu",
-      "link": "https://github.com/andrei-livadariu"
+      "link": "https://github.com/andrei-livadariu",
+      "text": "GitHub"
     }
+  },
+  "header": {
+    "age": "{age} years old",
+    "location": "Living in {location}"
   },
   "footer": {
     "heading": "Get in touch",

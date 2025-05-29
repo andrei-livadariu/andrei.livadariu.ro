@@ -1,8 +1,6 @@
 <script lang="ts">
 import {m} from '$lib/paraglide/messages.js';
 import age from "$lib/helpers/age.js";
-import ContactList from "$lib/components/blocks/ContactList.svelte";
-import ContactEntry from "$lib/components/blocks/ContactEntry.svelte";
 import MeImage from "$lib/components/blocks/MeImage.svelte";
 </script>
 
@@ -22,27 +20,27 @@ import MeImage from "$lib/components/blocks/MeImage.svelte";
 
             <br />
 
-            <ContactList>
-                <ContactEntry label={m['contact.location.label']()}>
-                    {m['contact.location.value']()}
-                </ContactEntry>
-                <ContactEntry label={m['contact.age.label']()}>
-                    {age(m['contact.age.value']())}
-                </ContactEntry>
-                <ContactEntry label={m['contact.phone.label']()}>
-                    <a href="tel:{m['contact.phone.value']().replace(/[^0-9+]/g, '')}">
-                        {m['contact.phone.value']()}
+            <ul class="flex flex-col gap-2 text-center md:text-start print:text-start">
+                <li>
+                    {m['header.age']({age: age(m['contact.age']())})}
+                </li>
+                <li>
+                    {m['header.location']({location: m['contact.location']()})}
+                </li>
+                <li>
+                <a href="tel:{m['contact.phone']().replace(/[^0-9+]/g, '')}">
+                    {m['contact.phone']()}
+                </a>
+                </li>
+                <li>
+                    <a href="mailto:{m['contact.email']()}">
+                        {m['contact.email']()}
                     </a>
-                </ContactEntry>
-                <ContactEntry label={m['contact.email.label']()}>
-                    <a href="mailto:{m['contact.email.value']()}">
-                        {m['contact.email.value']()}
-                    </a>
-                </ContactEntry>
-                <ContactEntry label="{m['contact.website.label']()}" class="hidden print:block">
-                    {m['contact.website.value']()}
-                </ContactEntry>
-            </ContactList>
+                </li>
+                <li class="hidden print:block">
+                    {m['contact.website']()}
+                </li>
+            </ul>
         </div>
     </div>
 </header>

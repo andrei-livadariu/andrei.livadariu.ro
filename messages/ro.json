@@ -6,36 +6,23 @@
     "tagline": "Creez site-uri, aplicații, jocuri și alte chestii interesante"
   },
   "contact": {
-    "age": {
-      "label": "Vârsta",
-      "value": "1990-02-12T00:00:00.000Z"
-    },
-    "phone": {
-      "label": "Telefon",
-      "value": "0724 390 309"
-    },
-    "email": {
-      "label": "E-mail",
-      "value": "andrei@livadariu.ro"
-    },
-    "location": {
-      "label": "Localitate",
-      "value": "București"
-    },
-    "website": {
-      "label": "Site",
-      "value": "https://andrei.livadariu.ro"
-    },
+    "age": "1990-02-12T00:00:00.000Z",
+    "phone": "(+40) 724 390 309",
+    "email": "andrei@livadariu.ro",
+    "location": "București",
+    "website": "https://andrei.livadariu.ro",
     "linkedin": {
-      "label": "LinkedIn",
-      "value": "Andrei Livadariu",
-      "link": "https://www.linkedin.com/in/andrei-livadariu-92857057/"
+      "link": "https://www.linkedin.com/in/andrei-livadariu-92857057/",
+      "text": "LinkedIn"
     },
     "github": {
-      "label": "GitHub",
-      "value": "andrei-livadariu",
-      "link": "https://github.com/andrei-livadariu"
+      "link": "https://github.com/andrei-livadariu",
+      "text": "GitHub"
     }
+  },
+  "header": {
+    "age": "Am {age} de ani",
+    "location": "Locuiesc în {location}"
   },
   "footer": {
     "heading": "Contactează-mă",

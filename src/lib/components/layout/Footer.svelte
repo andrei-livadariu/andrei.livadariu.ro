@@ -1,36 +1,33 @@
 <script lang="ts">
     import {m} from '$lib/paraglide/messages.js';
-
-    import ContactList from "$lib/components/blocks/ContactList.svelte";
-    import ContactEntry from "$lib/components/blocks/ContactEntry.svelte";
 </script>
 
 <footer class="container py-6 center-block">
     <h2 class="mb-6 text-center">{m['footer.heading']()}_</h2>
 
     <div class="center-block mb-6">
-        <ContactList>
-            <ContactEntry label={m['contact.phone.label']()}>
-                <a href="tel:{m['contact.phone.value']().replace(/[^0-9+]/g, '')}">
-                    {m['contact.phone.value']()}
+        <ul class="flex flex-col gap-2 text-center">
+            <li>
+                <a href="tel:{m['contact.phone']().replace(/[^0-9+]/g, '')}">
+                    {m['contact.phone']()}
                 </a>
-            </ContactEntry>
-            <ContactEntry label={m['contact.email.label']()}>
-                <a href="mailto:{m['contact.email.value']()}">
-                    {m['contact.email.value']()}
+            </li>
+            <li>
+                <a href="mailto:{m['contact.email']()}">
+                    {m['contact.email']()}
                 </a>
-            </ContactEntry>
-            <ContactEntry label={m['contact.linkedin.label']()}>
+            </li>
+            <li>
                 <a href={m['contact.linkedin.link']()} target="_blank" rel="nofollow noopener">
-                    {m['contact.linkedin.value']()}
+                    {m['contact.linkedin.text']()}
                 </a>
-            </ContactEntry>
-            <ContactEntry label={m['contact.github.label']()}>
+            </li>
+            <li>
                 <a href={m['contact.github.link']()} target="_blank" rel="nofollow noopener">
-                    {m['contact.github.value']()}
+                    {m['contact.github.text']()}
                 </a>
-            </ContactEntry>
-        </ContactList>
+            </li>
+        </ul>
     </div>
 
     <p class="text-center font-mono opacity-50">

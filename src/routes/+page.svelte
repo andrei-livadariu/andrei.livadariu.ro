@@ -14,7 +14,7 @@
     const locale = getLocale();
     const cv = (cvsByLanguage[locale] ?? cvsByLanguage[baseLocale]) as CVText;
 
-    const baseUrl = m['contact.website.value']();
+    const baseUrl = m['contact.website']();
 </script>
 
 <MetaTags
