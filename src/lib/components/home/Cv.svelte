@@ -20,6 +20,7 @@
     </h2>
     <div>
         <a href={cv.pdfPath} download class="bg-[var(--primary)] text-white no-underline uppercase font-mono py-1 px-3 md:py-2 md:px-6 rounded-full print:hidden">
+            <span class="iconify iconify-inline mdi--download"></span>
             {m['home.cv.download']()}
         </a>
     </div>

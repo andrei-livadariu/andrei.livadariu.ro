@@ -28,16 +28,23 @@ import MeImage from "$lib/components/blocks/MeImage.svelte";
                     {m['header.location']({location: m['contact.location']()})}
                 </li>
                 <li>
-                <a href="tel:{m['contact.phone']().replace(/[^0-9+]/g, '')}">
-                    {m['contact.phone']()}
+                <a href="tel:{m['contact.phone']().replace(/[^0-9+]/g, '')}" class="icon-link">
+                    <span class="iconify iconify-inline mdi--phone"></span>
+                    <span class="link-text">
+                        {m['contact.phone']()}
+                    </span>
                 </a>
                 </li>
                 <li>
-                    <a href="mailto:{m['contact.email']()}">
-                        {m['contact.email']()}
+                    <a href="mailto:{m['contact.email']()}" class="icon-link">
+                        <span class="iconify iconify-inline mdi--envelope"></span>
+                        <span class="link-text">
+                            {m['contact.email']()}
+                        </span>
                     </a>
                 </li>
                 <li class="hidden print:block">
+                    <span class="iconify iconify-inline mdi--web"></span>
                     {m['contact.website']()}
                 </li>
             </ul>
