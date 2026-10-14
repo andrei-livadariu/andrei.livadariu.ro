@@ -9,6 +9,15 @@ This is what I strive to achieve as an IT specialist.`,
         title: "Professional Experience",
         entries: [
             {
+                title: "Full-stack developer",
+                company: "Freelance",
+                duration: "2025 - present",
+                description: `The goal was to broaden my expertise by developing projects with newer technologies.
+                One such project involved developing an admin panel for a cryptocurrency datacenter.
+                Another project was a Telegram bot integrated with a backoffice app.
+                Technologies: React, Python, Next.js, PostgreSQL, Go`
+            },
+            {
                 title: "Senior web developer",
                 company: "Web Lab Space SRL, Romania",
                 duration: "2019 - 2025",
@@ -46,8 +55,7 @@ This is what I strive to achieve as an IT specialist.`,
                 company: "BitDefender SRL, Romania",
                 duration: "2009 - 2011",
                 description: `The bulk of the work was analyzing malware samples through reverse engineering to deliver detection and removal solutions.
-                I also researched and implemented machine-learning approaches for malware detection.
-                This was a full-time position during my bachelor degree years.`,
+                I also researched and implemented machine-learning approaches for malware detection.`,
             },
         ],
     },

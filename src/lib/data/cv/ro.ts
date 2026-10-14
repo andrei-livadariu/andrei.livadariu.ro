@@ -9,12 +9,21 @@ Asta este ținta mea ca specialist în IT.`,
         title: "Experiență Profesională",
         entries: [
             {
+                title: "Programator full-stack",
+                company: "Freelance",
+                duration: "2025 - prezent",
+                description: `Scopul meu a fost să îmi lărgesc orizonturile dezvoltând proiecte folosind noi tehnologii.
+                Am lucrat la un panou de administrare pentru un centru de minat criptomonede.
+                Am dezvoltat un bot pentru Telegram integrat cu o aplicație de administrate backoffice.
+                Tehnologii: React, Python, Next.js, PostgreSQL, Go`
+            },
+            {
                 title: "Programator web senior",
                 company: "Web Lab Space SRL, România",
                 duration: "2019 - 2025",
-                description: `Proiectele pe care le-am dezvoltat sunt site-uri de mare trafic implementate printr-o arhitectură de microservicii.
-                Contribuția mea principală a fost de a reduce costurile prin utilizarea mai eficientă a resurselor.
-                Partea tehnică include stocare de date în cloud, procesare video, administrarea serverelor și DevOps.
+                description: `Am dezvoltat site-uri de mare trafic implementate printr-o arhitectură de microservicii.
+                Contribuția mea a fost de a reduce costurile prin utilizarea mai eficientă a resurselor.
+                Proiectul include stocare de date în cloud, procesare video, gestiune de servere și DevOps.
                 Tehnologii: Laravel, Yii, NodeJS, VueJS, Redis, Backpack`
             },
             {
@@ -30,7 +39,7 @@ Asta este ținta mea ca specialist în IT.`,
                 company: "e-reactor ApS, Danemarca",
                 duration: "2012 - 2014",
                 description: `Am lucrat cu un portofoliu vast de site-uri de prezentare și magazine online.
-                Am luat parte la numeroase negocieri pe proiecte și am discutat direct cu clienții pe post de consilier tehnic.
+                Am luat parte la negocieri de proiecte și am discutat cu clienții pe post de consilier tehnic.
                 Tehnologii: Magento, Joomla, Bootstrap`,
             },
             {
@@ -45,9 +54,8 @@ Asta este ținta mea ca specialist în IT.`,
                 title: "Analist de viruși",
                 company: "BitDefender SRL, România",
                 duration: "2009 - 2011",
-                description: `Activitatea de aici consta în analiza virușilor prin reverse engineering pentru a elabora soluții de detecție și dezinfectare.
-                Am cercetat și implementat abordări bazate pe machine learning pentru detecția virușilor.
-                Acesta a fost un job cu normă întreagă unde am lucrat în timpul studiilor de licență.`,
+                description: `Am lucrat la analiza virușilor și elaborarea soluțiilor de detecție și dezinfectare.
+                Am cercetat și implementat abordări bazate pe machine learning pentru detecția virușilor.`,
             },
         ],
     },
